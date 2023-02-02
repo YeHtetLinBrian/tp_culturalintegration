@@ -1,0 +1,218 @@
+/*Basic Structure*/
+
+.header{
+	background-color: #2f365f/*#2b262d*/;
+	height: 130px;
+	margin: 0;
+	font-size: 30px;
+	font-family: Georgia;
+	color: white;
+	position: fixed;
+	text-align: left;
+	width:100%;
+}
+
+body {
+	width: 100%;
+	align:center;
+	background-color: #f2ebe5;
+}
+
+
+ul.menu {
+	margin: 0px;
+	padding: 10 px;
+	padding-top:20px;
+	width:100%;
+	color: white;
+	list-style: none;
+}
+
+ul.menu li {
+
+	display: inline-block;
+	width: 15.25%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px;
+	font-size: 20px;
+	background-color: white;
+	text-align: center;
+	opacity: 0.95;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	color: black;
+	margin: 0px;
+	width:100%;padding: 20 px 25 px;
+	background-color: white;
+	display: block;
+}
+
+ul.menu li a:hover {
+	background-color: #9f496e;
+
+}
+
+ul.menu li ul.dropdown li{
+	display: block;
+	margin: 0px;
+
+
+}
+
+ul.menu li ul.dropdown {
+	align:right;
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+
+ul.menu li:hover ul.dropdown{
+	align:center;
+	display: block;
+	padding: 0;
+	margin: 0px;
+}
+
+
+footer{
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	text-align: center;
+	line-height: 2 em;
+	width: 100%;
+	align: center;
+	color:white;
+}
+
+/*Others*/
+/*intro*/
+.intro{
+	padding-top:150px;
+	height: 320px;
+	padding-left: 50 px;
+}
+
+.overlay {
+position: absolute; 
+  display: block; 
+  width: 6%;
+  height:27%;
+  background-color: #f2ebe5;
+  /*background: url(intro_ornament1.png);
+  background-size: 200px;*/
+  animation: slide 20s infinite;
+  top: 200px;
+  right: 0px;
+  bottom: 20px;
+  z-index: -1; 
+}
+
+@keyframes slide {
+	25%{
+		background:url(intro_ornament1.png);
+		background-size: 200px;
+	}
+
+	50%{
+		background:url(intro_ornament2.png);
+		background-size: 200px;
+	}
+	75%{
+		background:url(intro_ornament3.png);
+		background-size: 200px;
+	}
+
+	100%{
+		background:url(intro_ornament4.png);
+		background-size: 200px;
+	}
+
+}
+
+.intro_1{
+	font-size: 50px;
+	font-family: Georgia;
+	padding-left: 20px;
+}
+
+.intro_2{
+	font-size: 40px;
+	font-family: Times New Roman;
+	padding-left: 20px;
+	color: red;
+}
+
+.intro_3{
+	padding-left: 20px;
+	font-size: 22px;
+	color: black ;
+	font-family: Times New Roman;
+}
+
+.intro_4{
+	padding-left: 20px;
+	font-size: 30px;
+	color: black ;
+	font-family: Calibri;
+}
+
+.firstline {
+	font-family: Times New Roman;
+	font-size: 50px;
+	text-align: center;
+}
+
+.goalsIntro {
+	color: black;
+	background-color: #9f496e;
+	font-size: 40px;
+	font-family: Georgia;
+	text-align: center;
+}
+
+.goalsIntro:hover{
+	background-color:black;
+	color: white;
+}
+
+.goals{
+	height: 750px;
+}
+
+.category_intro{
+	background-color: black /*#647295*/;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 40px;
+	color: white;
+}
+
+p {
+	padding-left: 10px;
+}
+
+/*body according to home page*/
+.body{
+	height: 500 px;
+	padding-top:150px;
+	padding-left: 50 px;
+
+}
+
+
+/*images*/
+.author{
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom: 10px;
+	float:left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+

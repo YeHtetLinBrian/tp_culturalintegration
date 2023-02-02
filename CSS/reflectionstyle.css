@@ -1,0 +1,93 @@
+/*Basic Structure*/
+
+.header{
+	background-color: #2f365f/*#2b262d*/;
+	height: 130px;
+	margin: 0;
+	font-size: 30px;
+	font-family: Georgia;
+	color: white;
+	position: fixed;
+	text-align: left;
+	width:100%;
+}
+
+body {
+	width: 100%;
+	align:center;
+	background-color: #f2ebe5;
+}
+
+/*
+ul {
+	margin: 0px;
+	padding: 10 px;
+	padding-top:20px;
+	width:100%;
+	color: white;
+	list-style: none;
+}
+
+ul li {
+
+	display: inline-block;
+	width: 15.25%;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px;
+	font-size: 20px;
+	background-color: white;
+	text-align: center;
+	opacity: 0.95;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	margin: 0px;
+	width:100%;padding: 20 px 25 px;
+	background-color: white;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: #9f496e;
+
+}
+
+ul li ul.dropdown li{
+	display: block;
+	margin: 0px;
+
+
+}
+
+ul li ul.dropdown {
+	align:right;
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+
+ul li:hover ul.dropdown{
+	align:center;
+	display: block;
+	padding: 0;
+	margin: 0px;
+}
+
+*/
+
+
+footer{
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	text-align: center;
+	line-height: 2 em;
+	width: 100%;
+	align: center;
+	color:white;
+}
+
